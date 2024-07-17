@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./assets/font/Comfortaa/Comfortaa-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/font/Quicksand/Quicksand-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-comfortaa {
+  font-family: "Comfortaa";
+}
+
+.font-quicksand {
+  font-family: "Quicksand";
+}
+
+/* SCROLL BAR STYLING */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #e7f5f6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1280a3;
+  border-radius: 10px;
+}
